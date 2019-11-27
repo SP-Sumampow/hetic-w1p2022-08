@@ -1,10 +1,9 @@
 
-html {
+body {
   background-color: white;
-  background-image: url("AirflyMax2.png");
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -41,9 +40,6 @@ html {
 .menu-open {
   visibility: visible;
 }
-
-
-
 
 .logo {
   margin-top: auto;
@@ -84,7 +80,6 @@ html {
 }
 
 .product {
-  display: inline-block;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -153,112 +148,72 @@ html {
 
 /********MEDIA QUERY********/
 
-@media (min-width: 768px){
-
-
-  .section1 {
-    width: 100vw;
-    height: 100vh;
+@media (min-width: 768px) {
+  section.section1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 1fr;
-    grid-template-areas: "a a a"
-                         "b c d";
+    grid-template-columns: 30% 1fr 30%;
+    grid-auto-rows: 80px 1fr;
+    grid-template-areas: "hdr hdr hdr""desc1 pic desc2";
+  }
+  header {
+    grid-area: hdr;
+  }
+  .description1 {
+    grid-area: desc1;
+    justify-self: center;
+  }
+  .product {
+    grid-area: pic;
+    justify-self: center;
+  }
+  .description2 {
+    grid-area: desc2;
+    justify-self: center;
+  }
+  section.section2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "img1 txt1""txt2 img2";
+  }
+  .imagefunctionality1 {
+    grid-area: img1;
+    justify-self: center;
+  }
+  .functionality1 {
+    grid-area: txt1;
+    justify-self: center;
+  }
+  .imagefunctionality2 {
+    grid-area: img2;
+    justify-self: center;
+  }
+  .functionality1 {
+    grid-area: txt2;
+    justify-self: center;
   }
 
-
-  .section1 header {
-  position: sticky; 
-  grid-area: a;
+  section.section3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "img1 txt1""txt2 img2";
   }
-
-  .section1 div .functionality1 {
-  grid-area: b;
+  .imagearticle1 {
+    grid-area: img1;
+    justify-self: center;
   }
-
-  .section1 div .imagefunctionality1 {
-    grid-area: c;
-    }
-
-  .section1 div .functionality2 {
-    grid-area: d;
-    }
-
-  .section1 div .imagefunctionality2 {
-      grid-area: e;
-      }
-  
-
-.section2 {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-template-areas: "a b""c d";
-}
-
-.section2 .function1 .imagefunctionality1 {
-  grid-area: a;
-  justify-self: center;
-}
-
-.section2 .function1 .functionality1 {
-  grid-area: b;
-  justify-self: center;
-}
-
-.section2 .function2 .imagefunctionality2 {
-  grid-area: d;
-}
-
-.section2 .function2 .functionality2 {
-  grid-area: c;
-}
-
-.section3 {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 150px;
-  grid-template-areas: "a b""c d""e e";
-}
-
-.section3 .imagearticle1 {
-  grid-area: a;
-  justify-self: center;
-  background-color: salmon;
-}
-
-.section3 .titlearticle1{
-  grid-area: b;
-  background-color: skyblue;
-}
-
-.section3 .imagearticle2 {
-  grid-area: c;
-  background-color: thistle;
-}
-
-.section3 .titlearticle1{
-  grid-area: d;
-  background-color: wheat;
-}
-
-.section3  footer {
-  grid-area: e;
-  background-color: yellow;
-}
-
-
-}
-
-
-@media (min-width: 900px){
-  .section2 {
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 220px 1fr 1fr 160px;
-  grid-template-areas: "a a""b c""d d""e e";
+  .article1{
+    grid-area: txt1;
+    justify-self: center;
+  }
+  .imagearticle2 {
+    grid-area: img2;
+    justify-self: center;
+  }
+  .article1 {
+    grid-area: txt2;
+    justify-self: center;
   }
 }
+
