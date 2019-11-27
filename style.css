@@ -1,0 +1,264 @@
+
+html {
+  background-color: white;
+  background-image: url("AirflyMax2.png");
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.section1, .section2, .section3 {
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+}
+
+.header {
+  height: 80px;
+  position: relative; 
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+.menu{
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  columns: #131313;;
+  background-color: white;
+  padding: 0;
+  list-style: none;
+  flex-grow: 1;
+  visibility: hidden;
+}
+
+.menu-open {
+  visibility: visible;
+}
+
+
+
+
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+
+.burger-menu {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+
+.is-click .bar:nth-child(1){
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.is-click .bar:nth-child(2) {
+  opacity: 0;
+}
+.is-click .bar:nth-child(3){
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.product {
+  display: inline-block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  padding: auto;
+  border: 1s solid black;
+}
+
+.description1 {
+  padding: 56px;
+  border: 1s solid black;
+  text-align: center;
+}
+
+.description2 {
+  padding: 56px;
+  border: 1s solid black;
+  text-align: center;
+}
+
+
+
+/********SENCTION-2********/
+
+
+
+.section2 h1 {
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+}
+
+.section2 .imagefunctionality1 {
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  object-fit: cover;
+  padding: auto;
+}
+
+.section2 .functionality1 {
+  text-align: center;
+}
+
+.section2 .imagefunctionality2 {
+  display: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  object-fit: cover;
+}
+
+.section2 .functionality2 {
+  text-align: center;
+}
+
+.section2 footer {
+  color: pink;
+}
+
+
+
+
+/*******SECTION-3*********/
+
+/********MEDIA QUERY********/
+
+@media (min-width: 768px){
+
+
+  .section1 {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr;
+    grid-template-areas: "a a a"
+                         "b c d";
+  }
+
+
+  .section1 header {
+  position: sticky; 
+  grid-area: a;
+  }
+
+  .section1 div .functionality1 {
+  grid-area: b;
+  }
+
+  .section1 div .imagefunctionality1 {
+    grid-area: c;
+    }
+
+  .section1 div .functionality2 {
+    grid-area: d;
+    }
+
+  .section1 div .imagefunctionality2 {
+      grid-area: e;
+      }
+  
+
+.section2 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "a b""c d";
+}
+
+.section2 .function1 .imagefunctionality1 {
+  grid-area: a;
+  justify-self: center;
+}
+
+.section2 .function1 .functionality1 {
+  grid-area: b;
+  justify-self: center;
+}
+
+.section2 .function2 .imagefunctionality2 {
+  grid-area: d;
+}
+
+.section2 .function2 .functionality2 {
+  grid-area: c;
+}
+
+.section3 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 150px;
+  grid-template-areas: "a b""c d""e e";
+}
+
+.section3 .imagearticle1 {
+  grid-area: a;
+  justify-self: center;
+  background-color: salmon;
+}
+
+.section3 .titlearticle1{
+  grid-area: b;
+  background-color: skyblue;
+}
+
+.section3 .imagearticle2 {
+  grid-area: c;
+  background-color: thistle;
+}
+
+.section3 .titlearticle1{
+  grid-area: d;
+  background-color: wheat;
+}
+
+.section3  footer {
+  grid-area: e;
+  background-color: yellow;
+}
+
+
+}
+
+
+@media (min-width: 900px){
+  .section2 {
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 220px 1fr 1fr 160px;
+  grid-template-areas: "a a""b c""d d""e e";
+  }
+}
