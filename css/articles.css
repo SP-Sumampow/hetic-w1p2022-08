@@ -12,7 +12,57 @@ p {
   text-align: justify;
 }
 
-div.flex div, div.flex1 div {
+div.flex div,
+div.flex1 div {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.p11 {
+  color: brown;
+  text-decoration: underline;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+
+  /* flex-direction: row; */
+}
+.flex1 {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+@keyframes shimmy {
+  0% {
+    font-size: 15px;
+    opacity: 0;
+  }
+  100% {
+    font-size: 25px;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    background-color: green;
+  }
+  h1 {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: double;
+
+    width: 100%;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  div.flex div,
+  div.flex1 div {
     margin: 30px;
     font-size: 20px;
   }
@@ -21,76 +71,34 @@ div.flex div, div.flex1 div {
     color: brown;
     text-decoration: underline;
   }
-  .flex {
+  div.flex,
+  div.flex1 {
     display: flex;
     justify-content: center;
-
-    /* flex-direction: row; */
-  }
-  .flex1 {
-    display: flex;
-    text-align: center;
     flex-direction: row;
-  }
-  @keyframes shimmy {
-    0% {
-      font-size: 15px;
-      opacity: 0;
-    }
-    100% {
-      font-size: 25px;
-      opacity: 1;
-    }
+    width: 100%;
+    flex-grow: 1;
+    flex-wrap: wrap;
   }
 
-  @media (max-width: 320px) {
-    body {
-      background-color: green;
-    }
-    h1 {
-      font-size: 30px;
-      padding: 10px;
-      text-align: center;
-      text-decoration: double;
+  /* flex-direction: row; */
+}
 
-      width: 100%;
-    }
-
-    p {
-      text-align: justify;
-    }
-
-    div.flex div,
-    div.flex1 div {
-      margin: 30px;
-      font-size: 20px;
-    }
-
-    .p11 {
-      color: brown;
-      text-decoration: underline;
-    }
-    div.flex,
-    div.flex1 {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      width: 100%;
-      flex-grow: 1;
-      flex-wrap: wrap;
-    }
-
-    /* flex-direction: row; */
+@keyframes shimmy {
+  0% {
+    font-size: 15px;
+    opacity: 0;
   }
-
-  @keyframes shimmy {
-    0% {
-      font-size: 15px;
-      opacity: 0;
-    }
-    100% {
-      font-size: 25px;
-      opacity: 1;
-    }
+  100% {
+    font-size: 25px;
+    opacity: 1;
   }
+}
+div {
+  margin: 30px;
+  font-size: 20px;
+}
+.p11 {
+  color: brown;
+  text-decoration: underline;
 }

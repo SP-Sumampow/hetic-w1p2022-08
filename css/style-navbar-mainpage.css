@@ -11,7 +11,7 @@ html {
   background-size: 100vw;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 a,
@@ -76,8 +76,8 @@ button:focus {
 .style-active {
   font-size: 18px;
   padding-bottom: 10px;
-  font-family: 'Roboto',sans-serif;
-  background-color :rgba(255,255,255, 1);
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .header-nav {
@@ -90,7 +90,7 @@ button:focus {
   width: 100%;
   font-size: 18px;
   padding-bottom: 10px;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo-nike {
@@ -106,7 +106,7 @@ button:focus {
 .nav-links,
 .logo {
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 .main-nav li {
@@ -154,39 +154,39 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .navigation {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 0;
-      height: 70px;
-      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
   }
 
   .main-nav {
-      display: flex;
-      margin-right: 30px;
-      flex-direction: row;
-      justify-content: flex-end;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   .main-nav li {
-      margin: 0;
+    margin: 0;
   }
 
   .nav-links {
-      margin-left: 40px;
+    margin-left: 40px;
   }
 
   .logo {
-      margin-top: 0;
+    margin-top: 0;
   }
 
   .navbar-toggle {
-      display: none;
+    display: none;
   }
 
   .logo:hover,
   .nav-links:hover {
-      color: gray;
+    color: gray;
   }
 
   .icon-shopping-basket {
@@ -220,7 +220,7 @@ button:focus {
 .p-title-shoes {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 35px;
   margin-top: 5px;
@@ -230,7 +230,7 @@ button:focus {
 .p-price-shoes {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   margin-top: 10px;
@@ -240,7 +240,7 @@ button:focus {
 .p-fly-shoes {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
   margin-top: 5px;
@@ -270,9 +270,8 @@ button:focus {
 }
 
 .p-desc-main-page {
-  text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
   margin-top: 20px;
@@ -280,7 +279,7 @@ button:focus {
 }
 
 .a-desc-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .div-a-mainpage {
@@ -289,6 +288,12 @@ button:focus {
   justify-content: center;
 }
 
+.title-div-for-airmax {
+  display: none;
+}
+
+/* ù********************************************* */
+
 @media screen and (min-width: 768px) {
   .picture-of-the-air-fly-max {
     max-width: 70%;
@@ -296,53 +301,52 @@ button:focus {
   }
 }
 
-
 @media screen and (min-width: 1250px) {
   /* display none */
   .title-div-of-the-shoes {
     display: none;
   }
-  
+
   .p-title-shoes {
     display: none;
   }
-  
+
   .p-price-shoes {
     display: none;
   }
-  
+
   .p-fly-shoes {
     display: none;
   }
-  
+
   .div-of-the-button {
     display: none;
   }
-  
+
   .button-add {
     display: none;
   }
-  
+
   .button-add a {
     display: none;
   }
-  
+
   .p-desc-main-page {
     display: none;
   }
-  
+
   .a-desc-link {
-   display: none;
+    display: none;
   }
-  
+
   .div-a-mainpage {
-   display: none;
+    display: none;
   }
 
   .div-desc-mainpage {
     display: none;
   }
-/* end display none */
+  /* end display none */
   .section1 {
     display: flex;
     justify-content: space-around;
@@ -367,7 +371,7 @@ button:focus {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: white;
@@ -377,13 +381,13 @@ button:focus {
     width: 100%;
     text-align: center;
     margin-top: 40%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: white;
   }
 
   .price-shoes-p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
@@ -391,24 +395,25 @@ button:focus {
   }
 
   .p-lets-fly {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 15px;
     color: white;
+    padding: 14px;
   }
 
   .div-desc-for-the-shoes-mainpage-right {
     width: 100%;
     text-align: center;
     margin-top: 40%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: black;
   }
 
   .price-shoes-p-right {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
@@ -416,13 +421,174 @@ button:focus {
   }
 
   .p-lets-fly-right {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 15px;
     color: black;
+    padding: 14px;
+  }
+
+  .div-of-the-shoes {
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    animation: Updown 2s infinite alternate;
+  }
+
+  .price-shoes-p-right1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    padding: 14px;
+  }
+
+  .p-lets-fly-right1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+    padding-bottom: 15px;
+  }
+
+  .button-main-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .button-add2 {
+    background-color: rgb(245, 47, 47);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button-add2 a {
+    color: white;
+  }
+  @keyframes Updown {
+    from {
+      margin-top: 60px;
+    }
+    to {
+      margin-top: 10px;
+    }
   }
 }
 
+/* ******************************* section 2 fonctionnality********************* */
 
+.section-fonctionnality {
+  height: 100vh;
+  width: 100%;
+}
 
+.background-tesla-section2 {
+  width: 100%;
+  height: auto;
+}
+
+.p-fonctionnality-section2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.desc-p-fonctionnality {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.desc-p-fonctionnality-prix {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.background-tesla-section2-1 {
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.div-commander-plus {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.div-commander-plus a {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #03a8f7;
+}
+
+@media (max-width: 1200px) {
+  .section-fonctionnality2 {
+    height: 29vh;
+    width: 100%;
+    margin-bottom: 12%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-fonctionnality2 {
+    height: 36vh;
+    width: 100%;
+    margin-bottom: 12%;
+  }
+}
+
+.a-commander {
+  padding-left: 10px;
+}
+
+.section-fonctionnality3 {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .section-fonctionnality {
+    display: none;
+  }
+  .section-fonctionnality3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .background-tesla-section2-1-desktop {
+    width: 80%;
+    height: auto;
+    margin-left: 35px;
+  }
+
+  .div-left-section2-flex {
+    margin-top: 10%;
+  }
+
+  .div-left-section2-flex1 {
+    margin-top: 0;
+  }
+}

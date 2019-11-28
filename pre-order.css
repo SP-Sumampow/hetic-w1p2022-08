@@ -1,24 +1,26 @@
-body{
+body {
   line-height: 2;
-  font-family: AdihausDIN,Helvetica,Arial,sans-serif;
+  font-family: AdihausDIN, Helvetica, Arial, sans-serif;
   padding-left: 0;
   padding-right: 0;
   text-align: center;
 }
-.first{
+.first {
   font-weight: bold;
   font-size: 40px;
   color: rgb(7, 4, 3);
   text-align: center;
 }
- .second {
+.second {
+  cursor: pointer;
   font-weight: bold;
   color: cornflowerblue;
   font-size: medium;
   padding-left: 30px;
- }
+}
 .border {
-  background-color:black;
+  cursor: pointer;
+  background-color: black;
   color: white;
   background-size: 10px;
   text-transform: uppercase;
@@ -32,12 +34,12 @@ body{
   min-height: 50px;
   align-items: center;
   text-align: left;
- }
- ul {
-   color: cornflowerblue;
-   text-decoration: underline;
- }
- li {
+}
+ul {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+li {
   margin: 8px;
   margin-bottom: 16px;
   list-style: none;
@@ -46,21 +48,19 @@ body{
   
   
   align-content: center;*/
-  
-  
- }
- .payer {
-   margin: 30px;
- }
- img {
-   padding-left: 30px;
- }
+}
+.payer {
+  margin: 30px;
+}
+img {
+  padding-left: 30px;
+}
 
- .divli {
-   display: flex;
-   justify-content: center;
- }
+.divli {
+  display: flex;
+  justify-content: center;
+}
 
- .divli- {
+.divli- {
   text-align: initial;
- }
+}
