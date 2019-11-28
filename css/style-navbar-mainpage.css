@@ -429,4 +429,19 @@ button:focus {
     color: black;
     padding: 14px;
   }
+
+  .div-of-the-shoes {
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    animation: Updown 2s infinite alternate;
+  }
+  @keyframes Updown {
+    from {
+      margin-top: 60px;
+    }
+    to {
+      margin-top: 10px;
+    }
+  }
 }
