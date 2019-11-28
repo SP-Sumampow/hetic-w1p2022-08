@@ -144,7 +144,8 @@ div {
   }
 
   .cadre {
-    border: 4mm ridge rgba(171, 169, 172, 0.6);
+    border-radius: 20px;
+    border: 1mm solid rgba(255, 2, 2, 0.6);
   }
 
   .imagearticle1 {
@@ -169,20 +170,36 @@ div {
 
 .imagearticle1 {
   width: 300px;
+  margin-top: 10px;
   height: 250px;
+  margin-left: 20px;
 }
 
 .imagearticle2 {
   width: 300px;
+  margin-top: 10px;
   height: 250px;
+  margin-left: 20px;
 }
 
 .cadre {
-  border: 4mm ridge rgba(171, 169, 172, 0.6);
+  border-radius: 20px;
+  border: 1mm solid rgba(255, 2, 2, 0.6);
 }
 
 h2 {
   font-family: "Nike TG";
   font-style: normal;
   font-weight: 400;
+  text-align: center;
+}
+
+.width {
+  height: 50vh;
+}
+
+h2 a {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
 }
