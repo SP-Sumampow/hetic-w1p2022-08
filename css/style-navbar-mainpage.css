@@ -126,7 +126,7 @@ button:focus {
   top: 10px;
   right: 20px;
   cursor: pointer;
-  color: black
+  color: black;
   font-size: 24px;
 }
 
@@ -396,6 +396,31 @@ button:focus {
     text-transform: uppercase;
     font-size: 15px;
     color: white;
+  }
+
+  .div-desc-for-the-shoes-mainpage-right {
+    width: 100%;
+    text-align: center;
+    margin-top: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+  }
+
+  .price-shoes-p-right {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+  }
+
+  .p-lets-fly-right {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
   }
 }
 
