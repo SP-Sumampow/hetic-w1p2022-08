@@ -1,6 +1,75 @@
 
+/********ANIMATION********/ 
+
+#loaderWrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  z-index: 999;
+  opacity: 1;
+  height: 100vh;
+}
+
+#loaderWrapper.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+#loader {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#loader img.tesla, #loader img.nike {
+  opacity: 0;
+}
+
+#loader img.tesla {
+  width: 200px;
+  position: absolute;
+  top:-100vw;
+  left:-120vh;
+  
+}
+
+#loader img.nike {
+  width: 100px;
+  position: absolute;
+  top: -100vw;
+  right:-120vh;
+}
+
+/* Animated state  */
+
+#loader img.tesla.showed {
+  margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+#loader img.nike.showed {
+  margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+/********HOME_PAGE********/
+
 body {
   background-color: white;
+  position: relative;
 }
 
 * {
