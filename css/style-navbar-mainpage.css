@@ -208,7 +208,7 @@ button:focus {
 }
 
 .picture-of-the-air-fly-max {
-  max-width: 90%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -591,3 +591,5 @@ button:focus {
     margin-top: 0;
   }
 }
+
+
