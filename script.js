@@ -31,6 +31,11 @@ window.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     loaderWrapper.classList.add("hidden");
     enableScroll();
+
+    //remove the loaderwrapper after 500ms which is the end of the opacity transition
+    setTimeout(function () {
+      loaderWrapper.remove();
+    }, 500);
   }, 2000);
 
 

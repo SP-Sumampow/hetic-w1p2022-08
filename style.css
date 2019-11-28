@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Nike Logo';
+  src: url('./assets/font/FuturaExtraBoldCondensedOblique.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nike TG";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/font/nikeTG/257c802f-349c-4b4d-aefa-546d5de15ec6.eot), url(./assets/font/nikeTG/257c802f-349c-4b4d-aefa-546d5de15ec6.eot?#iefix) format('embedded-opentype'), url(./assets/font/nikeTG/257c802f-349c-4b4d-aefa-546d5de15ec6.woff2) format('woff2'), url(./assets/font/nikeTG/257c802f-349c-4b4d-aefa-546d5de15ec6.woff) format('woff'), url(./assets/font/nikeTG/257c802f-349c-4b4d-aefa-546d5de15ec6.ttf) format('truetype'), url(./assets/font/nikeTG/fonts/257c802f-349c-4b4d-aefa-546d5de15ec6.svg#257c802f-349c-4b4d-aefa-546d5de15ec6) format('svg')
+}
+
+@font-face {
+  font-family: "Nike Futura";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/font/NikeFutura/nike-futura-extra-bold-v200.eot), url(./assets/font/NikeFutura/nike-futura-extra-bold-v200.eot?#iefix) format('embedded-opentype'), url(./assets/font/NikeFutura/nike-futura-extra-bold-v200.woff2) format('woff2'), url(./assets/font/NikeFutura/nike-futura-extra-bold-v200.woff) format('woff'), url(./assets/font/NikeFutura/nike-futura-extra-bold-v200.ttf) format('truetype'), url(./assets/font/NikeFutura/fonts/nike-futura-extra-bold-v200.svg#nike-futura-extra-bold-v200) format('svg')
+}
 
 /********ANIMATION********/ 
 
@@ -90,6 +110,12 @@ body {
   justify-content: space-between;
   background-color: grey;
   opacity: 0.5;
+}
+
+.header nav {
+  position: absolute;
+  top: 80px;
+  width: 100%;
 }
 
 .menu{
