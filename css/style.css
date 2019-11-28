@@ -583,12 +583,13 @@ button:focus {
 /********* SECTION-3 ********/
 
 
-.section3 div.article1 .image-article1 {
+.section3 .image-article1 {
   display: inherit;
   width: 200px;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
+  place-self: center;
 }
 
 .section3 h2.title-article1 {
@@ -597,13 +598,15 @@ button:focus {
   font-weight: 400;
   font-size: 32px;
   text-align: center;
+  place-self: center;
 }
 
-.section3 div.article2 .image-article2 {
+.section3 .image-article2 {
   display: inherit;
   width: 200px;
   object-fit: cover;
   margin: 20px auto 20px auto;
+  place-self: center;
 }
 
 .section3 h2.title-article2 {
@@ -612,6 +615,7 @@ button:focus {
   font-weight: 400;
   font-size: 32px;
   text-align: center;
+  place-self: center;
 }
 
 
@@ -742,19 +746,19 @@ vertical-align: middle;
   }
   .image-article1 {
     grid-area: img1;
-    justify-self: center;
+    place-self: center;
   }
   .article1 {
     grid-area: txt1;
-    justify-self: center;
+    place-self: center;
   }
   .image-article2 {
     grid-area: img2;
-    justify-self: center;
+    place-self: center;
   }
   .article1 {
     grid-area: txt2;
-    justify-self: center;
+    place-self: center;
   }
 }
 
@@ -763,6 +767,17 @@ section.section-contact {
     grid-template-rows: 50vh 50vh;
     grid-template-areas: "form" "footer";
 }
+
+form {
+  grid-area: form;
+  place-self: center;
+}
+
+footer {
+  grid-area: footer;
+  place-self: center,
+}
+
 
 @media (min-width: 1024px) {
  
@@ -774,19 +789,19 @@ section.section-contact {
   }
   .imagefunctionality1 {
     grid-area: img1;
-    justify-self: center;
+    place-self: center;
   }
   .functionality1 {
     grid-area: txt1;
-    justify-self: center;
+    place-self: center;
   }
   .imagefunctionality2 {
     grid-area: img2;
-    justify-self: center;
+    place-self: center;
   }
   .functionality1 {
     grid-area: txt2;
-    justify-self: center;
+    place-self: center;
   }
 
   section.section3 {
@@ -795,27 +810,37 @@ section.section-contact {
     grid-template-rows: 50vh 50vh;
     grid-template-areas: "img1 txt1" "txt2 img2";
   }
-  section.section3 div.article1 .image-article1 {
+  section .image-article1 {
     grid-area: img1;
     place-self: center;
   }
-  section.section3 div.article1 h2.title-article1 {
+  section h2.title-article1 {
     grid-area: txt1;
-    justify-self: center;
+    place-self: center;
   }
-  section.section3 div.article1 .image-article2 {
+  section .image-article2 {
     grid-area: img2;
-    justify-self: center;
+    place-self: center;
   }
-  section.section3 div.article1 h2.title-article2 {
+  section  h2.title-article2 {
     grid-area: txt2;
-    justify-self: center;
+    place-self: center;
   }
 
   section.section-contact {
     grid-template-columns: 100%;
       grid-template-rows: 50vh 50vh;
       grid-template-areas: "form" "footer";
+  }
+
+  form {
+    grid-area: form;
+    place-self: center;
+  }
+
+  footer {
+    grid-area: footer;
+    place-self: center,
   }
   
 }
