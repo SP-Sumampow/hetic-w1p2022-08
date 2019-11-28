@@ -207,7 +207,7 @@ body {
   padding: 16px;
 }
 
-.section2 .imagefunctionality1 {
+.section2 .image-functionality1 {
   display: inherit;
   margin-left: auto;
   margin-right: auto;
@@ -220,7 +220,7 @@ body {
   text-align: center;
 }
 
-.section2 .imagefunctionality2 {
+.section2 .image-functionality2 {
   display: inherit;
   margin-left: auto;
   margin-right: auto;
@@ -232,8 +232,61 @@ body {
   text-align: center;
 }
 
-.section2 footer {
-  color: pink;
+/********* SECTION-3 ********/
+
+
+
+
+/******** FORM-CONTACT ********/
+
+h1 {
+  font-weight: bold;
+  font-size  : 30px;
+  line-height: 150%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+input[type=submit]{
+  background-color:black;
+  color: white
+ }
+ input[type=submit]:hover, input[type=reset]:hover {
+  background-color:#FCDEDE;
+  color: black
+  }
+ input[type=submit]:active, input[type=reset]:active {
+  box-shadow:2px 2px 2px rgb(0, 0, 0) inset;
+ }
+ input[type=name]{
+  border: 1px solid #000000  ;
+  margin-top: 10px;
+ }
+ input[type=email]{
+  border: 1px solid #000000  ;
+  margin-bottom: 10px;
+ } 
+ textarea[name=bio]{
+  border: 1px solid #000000  ;
+  margin-bottom: 10px;
+ }
+textarea {
+  height: 100px;
+  resize: none;
+}
+input, textarea {
+  width: 300px;
+  margin-top: 10px;
+}
+div-input{
+ padding-block-start: 20em;
+}
+form div {
+display: flex;
+justify-content:center ;
+}
+
+.footer {
+  height: 120px;
+  background: black;
 }
 
 
@@ -379,5 +432,11 @@ body {
   .article1 {
     grid-area: txt2;
     justify-self: center;
+  }
+
+  section.section-contact {
+    display: grid;
+    grid-template-columns: 50;
+
   }
 }
