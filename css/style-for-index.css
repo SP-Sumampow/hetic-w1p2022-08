@@ -1,4 +1,6 @@
 body,
 html {
   background: url("../assets/img/13.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
