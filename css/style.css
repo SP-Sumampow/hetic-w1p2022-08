@@ -277,7 +277,7 @@ button:focus {
 }
 
 
-/***** yves 
+
 @media screen and (min-width: 768px) {
   .navigation {
       display: flex;
@@ -321,7 +321,7 @@ button:focus {
 }
 
 /* End Navbar ************************************ */
-/* 
+
 
 /* section 1 */
 
@@ -416,7 +416,7 @@ button:focus {
 }
 
 
-/* yves
+
 
 @media screen and (min-width: 768px) {
   .picture-of-the-air-fly-max {
@@ -425,13 +425,12 @@ button:focus {
   }
 }
 
-*/
 
-/*
+
 
 @media screen and (min-width: 1250px) {
   /* display none */
-  /*
+  
   .title-div-of-the-shoes {
     display: none;
   }
@@ -477,7 +476,7 @@ button:focus {
   }
 /* end display none */
 
-/*
+
   .section1 {
     display: flex;
     justify-content: space-around;
@@ -534,7 +533,7 @@ button:focus {
   }
 }
 
-/*
+
 
 
 
@@ -669,7 +668,7 @@ button:focus {
 
 /********* SECTION-3 ********/
 
-
+s
 
 
 /******** FORM-CONTACT ********/
@@ -726,6 +725,7 @@ justify-content:center ;
 
 /*******SECTION-3*********/
 
+/* JONATHAN
 .article1 {
   position: relative;
   width: 350px;
@@ -733,10 +733,12 @@ justify-content:center ;
   border: 4mm ridge rgba(171, 169, 172, 0.6);
   grid-column: 1/2;
 }
+*/
 
 /********MEDIA QUERY********/
 
 @media (min-width: 768px) {
+  /*
   section.section1 {
     display: grid;
     grid-template-columns: 30% 1fr 30%;
@@ -758,6 +760,7 @@ justify-content:center ;
     grid-area: desc2;
     justify-self: center;
   }
+  */
   section.section2 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -806,7 +809,7 @@ justify-content:center ;
 }
 
 @media (min-width: 1024px) {
-  section.section1 {
+  /*section.section1 {
     display: grid;
     grid-template-columns: 30% 1fr 30%;
     grid-auto-rows: 80px 1fr;
@@ -827,6 +830,7 @@ justify-content:center ;
     grid-area: desc2;
     justify-self: center;
   }
+  */
   section.section2 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -856,11 +860,11 @@ justify-content:center ;
     grid-template-rows: 50% 50%;
     grid-template-areas: "img1 txt1" "txt2 img2";
   }
-  .imagearticle1 {
+  section.section3 div.article1 .imagearticle1 {
     grid-area: img1;
     justify-self: center;
   }
-  .article1 {
+  div.article1 .article1 {
     grid-area: txt1;
     justify-self: center;
   }

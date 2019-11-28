@@ -16,8 +16,11 @@ window.addEventListener("DOMContentLoaded", function() {
   var nikeLogo = sectionLoader.querySelector("img.nike");
   var teslaLogo = sectionLoader.querySelector("img.tesla");
 
+
+  /* burger menu
   var burger = document.querySelector(".burger-menu");
   var menu = document.querySelector(".menu");
+  /*
 
   /******** ANIMATION_CONTENT_LOADED ********/
   // Animation logo showed after 500 miliseconds
