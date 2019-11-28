@@ -19,10 +19,7 @@ window.addEventListener("DOMContentLoaded", function () {
   }, 500);
 
   //Burger menu
-  burger.addEventListener('click', function() {
-    burger.classList.toggle('is-click');
-    menu.classList.toggle('menu-open')
-  })
+ 
 
   disableScroll();
 
