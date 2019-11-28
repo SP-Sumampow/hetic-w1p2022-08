@@ -6,7 +6,7 @@
 
 body,
 html {
-  background: url("../img/13.png");
+  background: url("../assets/img/13.png");
   background-repeat: no-repeat;
   background-size: 100vw;
   margin: 0;
@@ -76,8 +76,8 @@ button:focus {
 .style-active {
   font-size: 18px;
   padding-bottom: 10px;
-  font-family: 'Roboto',sans-serif;
-  background-color :rgba(255,255,255, 1);
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .header-nav {
@@ -90,7 +90,7 @@ button:focus {
   width: 100%;
   font-size: 18px;
   padding-bottom: 10px;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo-nike {
@@ -106,7 +106,7 @@ button:focus {
 .nav-links,
 .logo {
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 .main-nav li {
@@ -126,7 +126,7 @@ button:focus {
   top: 10px;
   right: 20px;
   cursor: pointer;
-  color: black
+  color: black;
   font-size: 24px;
 }
 
@@ -154,39 +154,39 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .navigation {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 0;
-      height: 70px;
-      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
   }
 
   .main-nav {
-      display: flex;
-      margin-right: 30px;
-      flex-direction: row;
-      justify-content: flex-end;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   .main-nav li {
-      margin: 0;
+    margin: 0;
   }
 
   .nav-links {
-      margin-left: 40px;
+    margin-left: 40px;
   }
 
   .logo {
-      margin-top: 0;
+    margin-top: 0;
   }
 
   .navbar-toggle {
-      display: none;
+    display: none;
   }
 
   .logo:hover,
   .nav-links:hover {
-      color: gray;
+    color: gray;
   }
 
   .icon-shopping-basket {
@@ -220,7 +220,7 @@ button:focus {
 .p-title-shoes {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 35px;
   margin-top: 5px;
@@ -230,7 +230,7 @@ button:focus {
 .p-price-shoes {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   margin-top: 10px;
@@ -240,7 +240,7 @@ button:focus {
 .p-fly-shoes {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
   margin-top: 5px;
@@ -272,7 +272,7 @@ button:focus {
 .p-desc-main-page {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 15px;
   margin-top: 20px;
@@ -280,7 +280,7 @@ button:focus {
 }
 
 .a-desc-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .div-a-mainpage {
@@ -289,6 +289,12 @@ button:focus {
   justify-content: center;
 }
 
+.title-div-for-airmax {
+  display: none;
+}
+
+/* ù********************************************* */
+
 @media screen and (min-width: 768px) {
   .picture-of-the-air-fly-max {
     max-width: 70%;
@@ -296,53 +302,52 @@ button:focus {
   }
 }
 
-
 @media screen and (min-width: 1250px) {
   /* display none */
   .title-div-of-the-shoes {
     display: none;
   }
-  
+
   .p-title-shoes {
     display: none;
   }
-  
+
   .p-price-shoes {
     display: none;
   }
-  
+
   .p-fly-shoes {
     display: none;
   }
-  
+
   .div-of-the-button {
     display: none;
   }
-  
+
   .button-add {
     display: none;
   }
-  
+
   .button-add a {
     display: none;
   }
-  
+
   .p-desc-main-page {
     display: none;
   }
-  
+
   .a-desc-link {
-   display: none;
+    display: none;
   }
-  
+
   .div-a-mainpage {
-   display: none;
+    display: none;
   }
 
   .div-desc-mainpage {
     display: none;
   }
-/* end display none */
+  /* end display none */
   .section1 {
     display: flex;
     justify-content: space-around;
@@ -367,7 +372,7 @@ button:focus {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: white;
@@ -377,13 +382,13 @@ button:focus {
     width: 100%;
     text-align: center;
     margin-top: 40%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: white;
   }
 
   .price-shoes-p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
@@ -391,24 +396,25 @@ button:focus {
   }
 
   .p-lets-fly {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 15px;
     color: white;
+    padding: 14px;
   }
 
   .div-desc-for-the-shoes-mainpage-right {
     width: 100%;
     text-align: center;
     margin-top: 40%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: black;
   }
 
   .price-shoes-p-right {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
@@ -416,13 +422,26 @@ button:focus {
   }
 
   .p-lets-fly-right {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 15px;
     color: black;
+    padding: 14px;
+  }
+
+  .div-of-the-shoes {
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    animation: Updown 2s infinite alternate;
+  }
+  @keyframes Updown {
+    from {
+      margin-top: 60px;
+    }
+    to {
+      margin-top: 10px;
+    }
   }
 }
-
-
-
