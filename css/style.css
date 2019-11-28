@@ -709,8 +709,9 @@ vertical-align: middle;
   
   .image-functionality2 {
     grid-area: img2;
-    justify-self: center;
+    place-self: center;
   }
+
   @keyframes animationZ {
     from {
       transform: translateY(0px);}
@@ -720,7 +721,7 @@ vertical-align: middle;
   
   .functionality1 {
     grid-area: txt2;
-    justify-self: center;
+    place-self: center;
     transform: translateZ(0px) scale(0.652);
     animation: animationZ 2s infinite;
   }
