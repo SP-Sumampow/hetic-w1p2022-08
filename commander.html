@@ -1,16 +1,15 @@
 <!-- <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="pre-order.css" />
-    <meta content="width=device-width,user-scalable=no" name="viewport" />
-    <meta charset="UTF-8" />
-    <title>COMMANDER</title>
-  </head> -->
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="page2.css">
+  <title>Document</title>
+</head> -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Se connecter</title>
+    <title>Commander</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -38,9 +37,9 @@
     />
     <link rel="shortcut icon" href="assets/img/nikexTesla.png" />
     <link rel="stylesheet" href="style_article.css" />
-
+    <link rel="stylesheet" href="css/articles.css" />
     <link rel="stylesheet" href="css/login.css" />
-    <link rel="stylesheet" type="text/css" href="pre-order.css" />
+    <link rel="stylesheet" href="css/page2.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -76,7 +75,7 @@
             <a href="article.html" class="nav-links">Articles</a>
           </li>
           <li>
-            <a href="contact.html" class="nav-links">Contact</a>
+            <a href="formulaire.html" class="nav-links">Contact</a>
           </li>
           <li>
             <a href="login.html" class="nav-links">Se connecter</a>
@@ -93,39 +92,42 @@
       </nav>
     </header>
 
-    <h1 class="first">
-      PANIER
-    </h1>
-    <p>
-      Dès que tu auras ajoute un article au panier,il apparaitra ici.C'est
-      parti?
-    </p>
-    <a href="commander.html" class="border1" title="C'est parti"></a>
-    <a href="commander.html">
-      <p class="border">
-        COMMANDER
-      </p></a
-    >
-    <h2 class="second">
-      BESOIN D'AIDE?
-    </h2>
-    <div class="divli">
-      <div class="divli-">
-        <li>Livraison</li>
-        <li>Retour et remboursement</li>
-        <li>Commande et paiement</li>
-        <li>Promotion et codes de reduction</li>
-      </div>
+    <div class="title">Air Fly Max</div>
+    <img class="img-commander" src="assets/img/AirflyMax2.png" />
+    <div class="first">
+      Trouver votre bohneur en choisissant parmis un large panel de couleur.
     </div>
-
-    <div class="payer">
-      METHODES DE PAIEMENT ACCEPTEES
+    <div class="secend">
+      Les réductions et promotions ne sont pas applicables à ce produit.
     </div>
-    <img
-      alt
-      src="https://www.adidas.fr/on/demandware.static/-/Sites-adidas-FR-Library/fr_FR/dw771418e3/location1_FR.png"
-      title=""
-      data-di-id="di-id-782932f4-9d248c18"
-    />
+    <div class="gl-link">
+      <svg class="gl-icon gl-icon--size-communication class-modif-mobile">
+        <use xlink:href="#size-guide"></use></svg
+      >Guide des tailles
+    </div>
+    <div class="box">
+      <select>
+        <option size="taille">CHOISIR UNE TAILLE</option>
+        <option size="36">36</option>
+        <option size="37">37</option>
+        <option size="38">38</option>
+        <option size="39">39</option>
+        <option size="40">40</option>
+        <option size="41">41</option>
+        <option size="42">42</option>
+        <option size="43">43</option>
+        <option size="44">44</option>
+      </select>
+    </div>
+    <div class="button">
+      <button
+        type="submit"
+        class="act"
+        data-auto-id="add-to-bag"
+        aria-label="Ajouter au panier"
+      >
+        <span class="text">Ajouter au panier</span>
+      </button>
+    </div>
   </body>
 </html>
