@@ -592,4 +592,9 @@ button:focus {
   }
 }
 
-
+@media (max-width: 500px) {
+  .section-fonctionnality {
+    height: 66vh;
+    width: 100%;
+  }
+}
