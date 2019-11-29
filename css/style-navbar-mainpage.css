@@ -597,4 +597,8 @@ button:focus {
     height: 66vh;
     width: 100%;
   }
+
+  .width {
+    height: 80vh;
+  }
 }
